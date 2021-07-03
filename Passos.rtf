@@ -1,0 +1,138 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1046{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\f0\fs22\lang22 <!DOCTYPE html>\par
+<html lang="en">\par
+<head>\par
+    <meta charset="UTF-8">\par
+    <meta htpp-equiv="X-USA-Compatibile" content="IE-edge">\par
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">\par
+    <litle>tela de login</litle>\par
+    <style>\par
+        body\{\par
+            font-family: Arial, Helvetica, sans-serif;\par
+            background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));\par
+        \}   \par
+        .box\{\par
+            color: white; \par
+            position: absolute;\par
+            top: 50%;\par
+            left: 50%;\par
+            transform: translate(-50%,-50%);\par
+            background-color: rgba(0, 0, 0, 0.6);\par
+            padding: 15px;  \par
+            border-radius: 15px;\par
+        \}\par
+        fieldset\{\par
+            border: 3px solid dodgerblue;\par
+        \}\par
+        legend\{\par
+            border: 1px solid dodgerblue;\par
+            padding: 10px;\par
+            text-align: center;\par
+            background-color: dodgerblue;\par
+            border-radius: 8px;\par
+        \}\par
+        .inputBox\{\par
+            position: relative;\par
+        \}\par
+        .inputUser\{\par
+            background: none;\par
+            border: none;\par
+            border-bottom: 1px solid white;\par
+            outline: none;\par
+            color: white;\par
+            font-size: 15px;\par
+            width: 100%;\par
+            letter-spacing: 2px;\par
+        \}\par
+        .inputUser:focus ~.labelInput,\par
+        .inputUser:valid ~ .labelInput\{\par
+            top: -20px;\par
+            font-size: 12px;\par
+            color: dodgerblue;\par
+            padding: 8px;\par
+            border-radius: 10px;\par
+            outline: none;\par
+            font-size: 15px;\par
+        \}\par
+        #data\{\par
+            border: nome;\par
+            padding: 8px;\par
+            border-radius: 10px;\par
+            outline: none;\par
+            font-size: 15px;\par
+        \}\par
+        #submit\{\par
+            background-image: linear-gradient(to right, rgb(0, 92, 197), rgb(90, 20, 220));\par
+            width: 100%;\par
+            border: none;\par
+            padding: 15px;\par
+            color: white;\par
+            font-size: 15px;\par
+            cursor: pointer;\par
+            border-radius: 10px;\par
+        \}\par
+        #submit:hover\{\par
+            background-image: linear-gradient(to right, rgb(0, 80, 172) rgb(80, 19, 195));\par
+        \}\par
+</style>    \par
+</head>\par
+<body>\par
+</style>\par
+</head>\par
+<body>\par
+    <div class="box"> \par
+        <form action="">\par
+            <fieldset>\par
+                <legend><b> Contador de Passos</b></legend>\par
+                <br>\par
+                <div class="inputBox">\par
+                    <input type="date" name="data" id="data" class="inputUser" required>\par
+                    <label for="data" class="labelInput">Data</label>\par
+                </div>\par
+                <br><br>\par
+                <div class="inputBox">\par
+                    <input type="number" name="number" id="number" class="inputUser" required>\par
+                    <label for="number" class="labelInput">Passos</label>\par
+                    <div class="inputBox">\par
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-pencil" viewBox="0 0 16 16">\par
+                            <path d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168l10-10zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207 11.207 2.5zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293l6.5-6.5zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325z"/>\par
+                          </svg>\par
+                          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">\par
+                            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z"/>\par
+                            <path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"/>\par
+                          </svg>\par
+                        <input type="number" name="number" id="number" class="inputUser" required>\par
+                        <label for="number" class="labelInput">Kilom\'eatros</label>\par
+                        <div class="inputBox">\par
+\par
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-pencil" viewBox="0 0 16 16">\par
+                                <path d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168l10-10zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207 11.207 2.5zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293l6.5-6.5zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325z"/>\par
+                              </svg>\par
+                              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">\par
+                                <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z"/>\par
+                                <path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"/>\par
+                              </svg>\par
+                            \par
+                            <input type="number" name="number" id="number" class="inputUser" required>\par
+                            <label for="number" class="labelInput">Calorias</label>\par
+                \par
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-pencil" viewBox="0 0 16 16">\par
+                                <path d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168l10-10zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207 11.207 2.5zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293l6.5-6.5zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325z"/>\par
+                              </svg>\par
+                              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">\par
+                                <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z"/>\par
+                                <path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"/>\par
+                              </svg>\par
+                </div>\par
+                <br><br>\par
+                <input type="submit" name="submit" id="submit">\par
+                \par
+                </div>\par
+        </form>\par
+        </div>\par
+\par
+</body>\par
+<html>\par
+}
+ 
